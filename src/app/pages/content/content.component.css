@@ -1,0 +1,35 @@
+.container__content{
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+
+.content__cover{
+  margin-top: 20px;
+}
+
+.content__title > h1{
+  width: 700px;
+  text-align: center;
+}
+
+.content__cover > img{
+  width: 800px;
+  min-width: 500px;
+  height: 400px;
+}
+
+.content__description{
+  margin-top: 20px;
+}
+.content__description > p {
+  color: gray;
+  width: 700px;
+  text-align: center;
+}
